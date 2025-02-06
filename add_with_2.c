@@ -5,7 +5,7 @@ int main()
     printf("enter any number:");
     scanf("%f",&x);
     sum=x+y;
-    printf("the given  number is added with 2 and the new number is:%.2f",sum);
+    printf("the given  number is added with 2 and the new number is:%.2fgit",sum);
     return 0;
 
 }

@@ -1,15 +1,13 @@
+
 #include<stdio.h>
 int main()
 {
-    int num,x,y=0;
+    int num,x,y,result;
     printf("enter any 2digit value:");
     scanf("%d",&num);
-    while(num>0)
-    {
-      x=num%10;
-      y=(y*10)+x;
-      num=num/10;
-    }
-    printf("reverse of the given 2 digits is:%d",y);
+    x=num%10;
+    y=num/10;
+    result=x*10+y;
+    printf("reverse of the given 2 digits is:%d",result);
 
 }
